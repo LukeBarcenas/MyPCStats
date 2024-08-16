@@ -164,7 +164,7 @@ Head to the latest release page (linked above) and download the latest release b
 Open the zip file and move the MyPCStats folder to an accessible location (Desktop is easiest).
 
 #### Step 3
-In the MyPCStats folder, open the "scripts" folder and double click "runStatsCollector" and go through the security process of opening the script.
+In the MyPCStats folder, open the "scripts" folder and double click "PCStatsCollector" and, if prompted, go through the security process of opening the script.
 
 #### Step 4
 With the script running, your inputs are being added, and you can view your data by opening the "MyPCStats" app!
@@ -172,13 +172,13 @@ With the script running, your inputs are being added, and you can view your data
 #### Step 5 (For always having inputs collected)
 On your keyboard, press "Win+r" to open the command window, and type "shell:startup" to go to your startup folder
 
-Head back to the "scripts" folder in the "MyPCStats" folder and make a shortcut of the "runStatsCollector" by right clicking the file, pressing "Show more options", then "Create shortcut".
+Head back to the "scripts" folder in the "MyPCStats" folder and make a shortcut of "PCStatsCollector" by right clicking the file, pressing "Show more options", then "Create shortcut".
 
 Drag this newly created shortcut into the "startup" folder and you are good to go! Your stats should now always be collected on startup.
 
 ## Help
 #### Data not being collected?
-In the MyPCStats app, go to the homepage in the questions section or the settings and click the link to open the application's folder. Head to the scripts folder and double click "runStatsCollector". Then, stats should start being collected. If you want to have it automatically start, follow step 5 in the download section.
+In the MyPCStats app, go to the homepage in the questions section or the settings and click the link to open the application's folder. Head to the scripts folder and double click "PCStatsCollector". Then, stats should start being collected. If you want to have it automatically start, follow step 5 in the download section.
 
 ##### Still not working or found a new bug? Report it to the Issues page, and I'll get to it as soon as possible.
 

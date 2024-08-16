@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 from pynput import keyboard, mouse
-from pathlib import Path
 import threading
 import sqlite3
 import psutil
+import ctypes
 import time
 import math
 import sys
@@ -12,25 +12,36 @@ import os
 scriptName = os.path.basename(__file__)
 
 # Checks if the script is already running
-def isAlreadyRunning(scriptName):
-    for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
-        if proc.info['name'] == 'python.exe' or proc.info['name'] == 'python3.exe':
-            cmdline = proc.info['cmdline']
-            if cmdline and scriptName in cmdline and proc.pid != os.getpid():
-                return True
-    return False
+def isAlreadyRunning():
+    mutex_name = "MyPCStatsMutex"  # Unique identifier for your application
+    kernel32 = ctypes.windll.kernel32
+    mutex = kernel32.CreateMutexW(None, False, mutex_name)
+    last_error = kernel32.GetLastError()
+
+    # ERROR_ALREADY_EXISTS is 183; indicates another instance is running
+    ERROR_ALREADY_EXISTS = 183
+
+    if last_error == ERROR_ALREADY_EXISTS:
+        return True
+    else:
+        return False
 
 # If the script is already running, exit
-if isAlreadyRunning(scriptName):
+if isAlreadyRunning():
     sys.exit()
 
 try:
-    # Get the directory
-    scriptDirectory = os.path.dirname(os.path.abspath(__file__))
+    # Get the directory of the script/executable
+    if getattr(sys, 'frozen', False):
+        # If the app is an exe
+        scriptDirectory = os.path.dirname(sys.executable)
+    else:
+        # If running as a script
+        scriptDirectory = os.path.dirname(os.path.abspath(__file__))
 
     # Path to the database
-    DATABASE = os.path.join(scriptDirectory, 'InputDB.db')
-
+    DATABASE = os.path.join(scriptDirectory, 'InputDB.db')    
+    
     # Dictionaries to keep track of inputs and timestamps
     pressedKeys = {}
     pressedButtons = {}
@@ -299,7 +310,6 @@ try:
                     lastPosition = (x, y)
                 time.sleep(0.1)
             except Exception as e:
-                print(f"Error tracking mouse position: {e}")
                 time.sleep(0.1)
                 
     # Starts the background process for tracking inputs

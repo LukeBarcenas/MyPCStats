@@ -3,7 +3,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from PySide6.QtGui import QDesktopServices, QColor, QPainter, QPen, QIcon
 from PySide6.QtCore import QEvent, QUrl, QTimer, Qt, QPoint, QDate
 from datetime import datetime, timedelta
-from MyPcStats_ui import Ui_MainWindow
+from MyPCStats_ui import Ui_MainWindow
 from matplotlib.figure import Figure
 import matplotlib.dates as mdates
 import sqlite3
@@ -1040,7 +1040,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     # Opens a help link for the application
     def openHelpLink(self):
-        QDesktopServices.openUrl(QUrl("https://www.example.com"))
+        QDesktopServices.openUrl(QUrl("https://github.com/LukeBarcenas/MyPCStats?tab=readme-ov-file#help"))
 
     # Handles highlighting and changing the current index of the app's pages
     def eventFilter(self, source, event):
