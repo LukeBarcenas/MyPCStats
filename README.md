@@ -17,17 +17,17 @@ MyPCStats is launching with a variety of different ways to view your computer ac
 #### Mouse
 View your overall mouse input statistics on the Mouse Summary page. This holds convenient information, such as click totals, mouse movement totals, and more.
 
-<div style="text-align: center;">
-  <img src="docs/images/mouseSummary.png" alt="Mouse Summary Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/mouseSummary.png" alt="Mouse Summary Page" width="80%">
+</p>
 
 ---
 
 The Scroll Up vs. Scroll Down pie chart shows a simple representation of how often you scroll up compared to scrolling down.
 
-<div style="text-align: center;">
-  <img src="docs/images/scrollPieChart.png" alt="Mouse Scrolling Pie Chart" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/scrollPieChart.png" alt="Mouse Scrolling Pie Chart" width="80%">
+</p>
 
 ---
 
@@ -41,9 +41,9 @@ Fill up your screen with color by using the 24 hour click map, an overlay that s
 
 Press the esc button to leave the overlay.
 
-<div style="text-align: center;">
-  <img src="docs/images/mouseClickDrawGIF.gif" alt="Mouse Click Overlay" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/mouseClickDrawGIF.gif" alt="Mouse Click Overlay" width="80%">
+</p>
 
 ---
 
@@ -56,18 +56,18 @@ View your mouse movement history with the move map, an overlay that shows your p
 
 Press the esc button to leave the overlay.
 
-<div style="text-align: center;">
-  <img src="docs/images/mouseMoveDrawGIF.gif" alt="Mouse Movement Overlay" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/mouseMoveDrawGIF.gif" alt="Mouse Movement Overlay" width="80%">
+</p>
 
 <hr>
 
 #### Keyboard
 See your summary of keyboard inputs on the Keyboard Summary page. This page has convenient keyboard input information, such as keyboard input totals, most used letters, and other insightful features.
 
-<div style="text-align: center;">
-  <img src="docs/images/keyboardSummary.png" alt="Keyboard Summary Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/keyboardSummary.png" alt="Keyboard Summary Page" width="80%">
+</p>
 
 ---
 
@@ -77,25 +77,25 @@ The Keyboard Heatmap is a depiction of your keyboard interaction history, showin
 - **Rounded Corners:** Toggles rounded or sharp corners on each key.
 - **Color Scheme:** Changes the colors of the heatmap from the traditional green-to-red to a dark-to-light green scheme akin to the colors of the app.
 
-<div style="text-align: center;">
-  <img src="docs/images/keyboardHeatmap.png" alt="Keyboard Heatmap Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/keyboardHeatmap.png" alt="Keyboard Heatmap Page" width="80%">
+</p>
 
 ---
 
 View the feud between space and backspace on the Space vs. Backspace pie chart.
 
-<div style="text-align: center;">
-  <img src="docs/images/spaceVsBackspace.png" alt="Space vs Backspace Pie Chart" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/spaceVsBackspace.png" alt="Space vs Backspace Pie Chart" width="80%">
+</p>
 
 ---
 
 View various statistics of random keys with the Random Key Stats page. By clicking on either of the die, a random key on the keyboard is selected, and various details about it are shown.
 
-<div style="text-align: center;">
-  <img src="docs/images/randomKeyStats.png" alt="Random Key Stats Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/randomKeyStats.png" alt="Random Key Stats Page" width="80%">
+</p>
 
 <hr>
 
@@ -103,9 +103,9 @@ View various statistics of random keys with the Random Key Stats page. By clicki
 
 The Input Summary Page presents a graph of average inputs throughout the day, telling you your most active computer usage hours.
 
-<div style="text-align: center;">
-  <img src="docs/images/avgInputSummary.png" alt="Average Input Summary Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/avgInputSummary.png" alt="Average Input Summary Page" width="80%">
+</p>
 
 ---
 
@@ -119,9 +119,9 @@ The Mouse Click History plot has 5 settings to display your history of mouse inp
 
 Depicted below is an example of the "Month" plot.
 
-<div style="text-align: center;">
-  <img src="docs/images/mouseInputHistory.png" alt="Mouse Input History Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/mouseInputHistory.png" alt="Mouse Input History Page" width="80%">
+</p>
 
 ---
 
@@ -135,9 +135,9 @@ Just like the Mouse Click History plot, the Keyboard Input History Plot has 5 se
 
 Depicted below is an example of the "Month" plot.
 
-<div style="text-align: center;">
-  <img src="docs/images/keyboardInputHistory.png" alt="Keyboard History Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/keyboardInputHistory.png" alt="Keyboard History Page" width="80%">
+</p>
 
 ---
 
@@ -148,9 +148,9 @@ The active sessions page is an experimental way to see your typicsl computer act
 - **Daily Activity Calendar:** Allows you to change the date and to view your activity on that day.
 - **Daily Activity Plot:** Shows a 24 hour graph of periods when you were active on your computer. Hovering over the data allows for deeper analysis of usage times.
 
-<div style="text-align: center;">
-  <img src="docs/images/activeSessions.png" alt="Active Sessions Page" width="90%">
-</div>
+<p align="center">
+  <img src="docs/images/activeSessions.png" alt="Active Sessions Page" width="80%">
+</p>
 
 <hr>
 
