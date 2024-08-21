@@ -158,23 +158,10 @@ The active sessions page is an experimental way to see your typicsl computer act
 [Download the latest version of MyPCStats](https://github.com/LukeBarcenas/MyPCStats/releases/latest) - Get the latest version here.
 
 #### Step 1
-Head to the latest release page (linked above) and download the latest release by clicking on the "MyPCStats.zip" link in the assets section of the page.
+Head to the latest release page (linked above) and download the latest release by clicking on the "MyPCStatsInstaller.exe" link in the assets section of the page.
 
 #### Step 2
-Open the zip file and move the MyPCStats folder to an accessible location (Desktop is easiest).
-
-#### Step 3
-In the MyPCStats folder, open the "scripts" folder and double click "PCStatsCollector" and, if prompted, go through the security process of opening the script.
-
-#### Step 4
-With the script running, your inputs are being added, and you can view your data by opening the "MyPCStats" app!
-
-#### Step 5 (For always having inputs collected)
-On your keyboard, press "Win+r" to open the command window, and type "shell:startup" to go to your startup folder
-
-Head back to the "scripts" folder in the "MyPCStats" folder and make a shortcut of "PCStatsCollector" by right clicking the file, pressing "Show more options", then "Create shortcut".
-
-Drag this newly created shortcut into the "startup" folder and you are good to go! Your stats should now always be collected on startup.
+Open the installer and follow the install instructions. You should now be set up with MyPCStats!
 
 ## Help
 #### Data not being collected?
