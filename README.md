@@ -162,6 +162,7 @@ Head to the latest release page (linked above) and download the latest release b
 
 #### Step 2
 Open the installer and follow the install instructions. You should now be set up with MyPCStats!
+Open the installer and follow the install instructions. You should now be set up with MyPCStats!
 
 ## Help
 #### Data not being collected?
