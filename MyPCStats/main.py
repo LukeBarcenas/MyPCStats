@@ -935,7 +935,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
     # Changes the color scheme of the keyboard heatmap when the button is pressed
     def toggleColorScheme(self, checked):
-        stylesheet = self.HeatLegend.styleSheet()
+        stylesheet = self.styleSheet()
         if checked:
             self.colorScheme = 'greenToRedScheme'
             stylesheet = stylesheet.replace('background-color: qlineargradient(spread:pad, x1:0, y1:0.477682, x2:1, y2:0.472, stop:0 rgba(2, 67, 28, 255), stop:0.366086 rgba(1, 102, 0, 255), stop:0.692552 rgba(25, 157, 5, 255), stop:1 rgba(39, 219, 4, 255));', 'background-color: qlineargradient(spread:pad, x1:0.028, y1:0, x2:1, y2:0, stop:0 rgba(0, 255, 21, 255), stop:0.361111 rgba(249, 255, 0, 255), stop:0.638889 rgba(255, 255, 0, 255), stop:1 rgba(255, 0, 0, 255));')

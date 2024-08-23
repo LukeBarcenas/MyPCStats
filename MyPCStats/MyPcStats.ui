@@ -1791,8 +1791,8 @@
                      <rect>
                       <x>0</x>
                       <y>0</y>
-                      <width>859</width>
-                      <height>2407</height>
+                      <width>860</width>
+                      <height>2450</height>
                      </rect>
                     </property>
                     <property name="sizePolicy">
@@ -2042,7 +2042,7 @@
                                   <widget class="QLabel" name="ClickMapSubtext">
                                    <property name="font">
                                     <font>
-                                     <pointsize>12</pointsize>
+                                     <pointsize>13</pointsize>
                                     </font>
                                    </property>
                                    <property name="text">
@@ -4018,7 +4018,7 @@ Lightyears</string>
                                      <widget class="QLabel" name="MoveMapSubtext">
                                       <property name="font">
                                        <font>
-                                        <pointsize>12</pointsize>
+                                        <pointsize>13</pointsize>
                                        </font>
                                       </property>
                                       <property name="text">
@@ -4232,7 +4232,7 @@ Lightyears</string>
                   <rect>
                    <x>0</x>
                    <y>0</y>
-                   <width>859</width>
+                   <width>860</width>
                    <height>2407</height>
                   </rect>
                  </property>
@@ -4332,7 +4332,7 @@ Lightyears</string>
                        </property>
                        <layout class="QVBoxLayout" name="verticalLayout_40">
                         <item>
-                         <widget class="QWidget" name="RKTitleHolder" native="true">
+                         <widget class="QWidget" name="RKHeaderHolder" native="true">
                           <property name="sizePolicy">
                            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                             <horstretch>0</horstretch>
@@ -4399,32 +4399,74 @@ Lightyears</string>
                                </widget>
                               </item>
                               <item>
-                               <widget class="QLabel" name="RandomKeyTitle">
+                               <widget class="QWidget" name="RKTitleHolder" native="true">
                                 <property name="sizePolicy">
-                                 <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                                 <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
                                   <horstretch>0</horstretch>
                                   <verstretch>0</verstretch>
                                  </sizepolicy>
                                 </property>
-                                <property name="font">
-                                 <font>
-                                  <pointsize>39</pointsize>
-                                  <bold>true</bold>
-                                  <underline>false</underline>
-                                 </font>
-                                </property>
-                                <property name="styleSheet">
-                                 <string notr="true"/>
-                                </property>
-                                <property name="text">
-                                 <string>Random Key Stats</string>
-                                </property>
-                                <property name="scaledContents">
-                                 <bool>false</bool>
-                                </property>
-                                <property name="alignment">
-                                 <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
-                                </property>
+                                <layout class="QVBoxLayout" name="verticalLayout_107">
+                                 <property name="spacing">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="leftMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>0</number>
+                                 </property>
+                                 <item>
+                                  <widget class="QLabel" name="RandomKeyTitle">
+                                   <property name="sizePolicy">
+                                    <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                                     <horstretch>0</horstretch>
+                                     <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                   </property>
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>39</pointsize>
+                                     <bold>true</bold>
+                                     <underline>false</underline>
+                                    </font>
+                                   </property>
+                                   <property name="styleSheet">
+                                    <string notr="true"/>
+                                   </property>
+                                   <property name="text">
+                                    <string>Random Key Stats</string>
+                                   </property>
+                                   <property name="scaledContents">
+                                    <bool>false</bool>
+                                   </property>
+                                   <property name="alignment">
+                                    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                 <item>
+                                  <widget class="QLabel" name="RandomKeySubTitle">
+                                   <property name="font">
+                                    <font>
+                                     <pointsize>13</pointsize>
+                                    </font>
+                                   </property>
+                                   <property name="text">
+                                    <string>Click either of the dice to change the random key</string>
+                                   </property>
+                                   <property name="alignment">
+                                    <set>Qt::AlignmentFlag::AlignCenter</set>
+                                   </property>
+                                  </widget>
+                                 </item>
+                                </layout>
                                </widget>
                               </item>
                               <item>
