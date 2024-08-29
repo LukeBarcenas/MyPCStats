@@ -9,7 +9,7 @@
 - [Help](#help)
 
 ## Overview
-MyPCStats lets you track your lifetime computer inputs with new ways to view your keyboard and mouse input data.
+Ever wondered how many times you've clicked your mouse today? Or maybe how often you've typed the letter 'G'? With MyPCStats, you can start tracking your inputs and finally find out how you have been interacting with your computer. Whether you're curious about your total keyboard inputs or want to see where you have been using your mouse, MyPCStats provides informative and easy-to-understand analytics on your keyboard and mouse inputs. See everything from your most active hours to the keys you use the most, and even see a visual map of your mouse clicks/movements. Whether you're looking to optimize your workflow or are just curious about your input habits, MyPCStats gives you a new way to understand and engage with your computer.
 
 ## Features
 MyPCStats is launching with a variety of different ways to view your computer activity. From mouse and keyboard input statistics to data analytics, you can view all of your input activity in one place.
@@ -161,7 +161,6 @@ The active sessions page is an experimental way to see your typicsl computer act
 Head to the latest release page (linked above) and download the latest release by clicking on the 'MyPCStatsInstaller.exe' link in the assets section of the page.
 
 #### Step 2
-Open the installer and follow the install instructions. You should now be set up with MyPCStats!
 Open the installer and follow the install instructions. You should now be set up with MyPCStats!
 
 ## Help
